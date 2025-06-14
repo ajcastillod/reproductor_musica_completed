@@ -54,7 +54,7 @@ class Playlist {
             return;
         }
 
-        System.out.println("🎶 Canciones en la playlist '" + nombre + "':");
+        System.out.println(" Canciones en la playlist '" + nombre + "':");
         Cancion actual = inicio;
         while (actual != null) {
             System.out.println("- " + actual.titulo + " | " + actual.artista + " | " + actual.duracion + " seg");
